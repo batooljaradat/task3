@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    font-family: 'Bad Script', cursive;
+    font-family: bold;
+
+    font-size: 22px;
+    letter-spacing: 1px;
+    background-color: rgb(204, 213, 174);
+    
+
+
+}
+
+
+body{
+    height: 2500;
+}
+
+
+
+
+
+.a,.c,.b{
+    border: 1px solid rgb(212, 163, 115);
+    height: 350px;
+    width: 700px;
+    margin:  10px auto;
+    
+    border-radius: 10px;
+    
+}
+a{ 
+    text-decoration: none;
+    color: black;
+}
+.hed
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 35px;
+
+}
+.sec{
+    display: flex;
+    
+    box-sizing:border-box ;
+    align-content: space-between;
+     
+   justify-content: center;
+}
+
+
+a:hover
+{
+    letter-spacing: 7px;
+    color: rgb(212, 163, 115);
+}
+.note{
+    color :rgb(255, 103, 0);
+}
+
+ .img2 ,.img3
+{
+    width: 340px;
+
+    height: 200px;
+    
+    
+    
+}
+
+.bn{
+    height: 20px;
+    animation: mymove 1s infinite;
+   text-align: center;
+}
+span{
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+
+
+.img1{
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes mymove {
+    0%{transform: translate(0,0);}
+    50%{transform: translate(0,40px);}
+    100%{transform: translate(0,0);}
+
+}
